@@ -49,7 +49,7 @@ class Typography extends Component {
                         </div>
               <div className="panel-body">
                 <p className="lead">This is an example of lead body copy.</p>
-                <p>This is an example of standard paragraph text. This is an example of <a href="#">link anchor text</a> within body copy.</p>
+                <p>This is an example of standard paragraph text. This is an example of <a >link anchor text</a> within body copy.</p>
                 <p>
                   <small>This is an example of small, fine print text.</small>
                 </p>

@@ -16,7 +16,28 @@ class FlotChart extends Component {
             <div className="panel panel-default">
               <div className="panel-heading">
                 Line Chart Example
-                        </div>
+
+                <div className="pull-right">
+                  <div className="btn-group">
+                    <button type="button" className="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+                      Actions
+                    <span className="caret"></span>
+                    </button>
+                    <ul className="dropdown-menu pull-right" role="menu">
+                      <li><a >Action</a>
+                      </li>
+                      <li><a >Another action</a>
+                      </li>
+                      <li><a >Something else here</a>
+                      </li>
+                      <li className="divider"></li>
+                      <li><a >Separated link</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
               {/* <!-- /.panel-heading  --> */}
               <div className="panel-body">
                 <div className="flot-chart">

@@ -253,7 +253,7 @@ class Nav extends Component {
                     <a href="/flot-chart">Flot Charts</a>
                   </li>
                   <li>
-                    <a href="/morris-chart">Morris.js Charts</a>
+                    {/* <a href="/morris-chart">Morris.js Charts</a> */}
                   </li>
                 </ul>
                 {/* <!-- /.nav-second-level --> */}

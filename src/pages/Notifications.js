@@ -20,16 +20,16 @@ class Notifications extends Component {
               {/* <!-- /.panel-heading --> */}
               <div className="panel-body">
                 <div className="alert alert-success">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#" className="alert-link">Alert Link</a>.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a  className="alert-link">Alert Link</a>.
                 </div>
                 <div className="alert alert-info">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#" className="alert-link">Alert Link</a>.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a  className="alert-link">Alert Link</a>.
                 </div>
                 <div className="alert alert-warning">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#" className="alert-link">Alert Link</a>.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a  className="alert-link">Alert Link</a>.
                 </div>
                 <div className="alert alert-danger">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#" className="alert-link">Alert Link</a>.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a  className="alert-link">Alert Link</a>.
                 </div>
               </div>
               {/* <!-- .panel-body --> */}
@@ -46,19 +46,19 @@ class Notifications extends Component {
               <div className="panel-body">
                 <div className="alert alert-success alert-dismissable">
                   <button type="button" className="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#" className="alert-link">Alert Link</a>.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a  className="alert-link">Alert Link</a>.
                 </div>
                 <div className="alert alert-info alert-dismissable">
                   <button type="button" className="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#" className="alert-link">Alert Link</a>.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a  className="alert-link">Alert Link</a>.
                 </div>
                 <div className="alert alert-warning alert-dismissable">
                   <button type="button" className="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#" className="alert-link">Alert Link</a>.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a  className="alert-link">Alert Link</a>.
                 </div>
                 <div className="alert alert-danger alert-dismissable">
                   <button type="button" className="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#" className="alert-link">Alert Link</a>.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a  className="alert-link">Alert Link</a>.
                 </div>
               </div>
               {/* <!-- .panel-body --> */}

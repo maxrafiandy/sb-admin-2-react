@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 class Dashboard extends Component {
+
   render() {
     return (
       <div id="page-wrapper">
@@ -25,7 +26,7 @@ class Dashboard extends Component {
                   </div>
                 </div>
               </div>
-              <a href="#">
+              <a >
                 <div className="panel-footer">
                   <span className="pull-left">View Details</span>
                   <span className="pull-right"><i className="fa fa-arrow-circle-right"></i></span>
@@ -47,7 +48,7 @@ class Dashboard extends Component {
                   </div>
                 </div>
               </div>
-              <a href="#">
+              <a >
                 <div className="panel-footer">
                   <span className="pull-left">View Details</span>
                   <span className="pull-right"><i className="fa fa-arrow-circle-right"></i></span>
@@ -69,7 +70,7 @@ class Dashboard extends Component {
                   </div>
                 </div>
               </div>
-              <a href="#">
+              <a >
                 <div className="panel-footer">
                   <span className="pull-left">View Details</span>
                   <span className="pull-right"><i className="fa fa-arrow-circle-right"></i></span>
@@ -91,7 +92,7 @@ class Dashboard extends Component {
                   </div>
                 </div>
               </div>
-              <a href="#">
+              <a >
                 <div className="panel-footer">
                   <span className="pull-left">View Details</span>
                   <span className="pull-right"><i className="fa fa-arrow-circle-right"></i></span>
@@ -104,138 +105,6 @@ class Dashboard extends Component {
         {/*  /.row  --> */}
         <div className="row">
           <div className="col-lg-8">
-            <div className="panel panel-default">
-              <div className="panel-heading">
-                <i className="fa fa-bar-chart-o fa-fw"></i> Area Chart Example
-              <div className="pull-right">
-                  <div className="btn-group">
-                    <button type="button" className="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
-                      Actions
-                    <span className="caret"></span>
-                    </button>
-                    <ul className="dropdown-menu pull-right" role="menu">
-                      <li><a href="#">Action</a>
-                      </li>
-                      <li><a href="#">Another action</a>
-                      </li>
-                      <li><a href="#">Something else here</a>
-                      </li>
-                      <li className="divider"></li>
-                      <li><a href="#">Separated link</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              {/*  /.panel-heading  --> */}
-              <div className="panel-body">
-                <div id="morris-area-chart"></div>
-              </div>
-              {/*  /.panel-body  --> */}
-            </div>
-            {/*  /.panel  --> */}
-            <div className="panel panel-default">
-              <div className="panel-heading">
-                <i className="fa fa-bar-chart-o fa-fw"></i> Bar Chart Example
-              <div className="pull-right">
-                  <div className="btn-group">
-                    <button type="button" className="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
-                      Actions
-                    <span className="caret"></span>
-                    </button>
-                    <ul className="dropdown-menu pull-right" role="menu">
-                      <li><a href="#">Action</a>
-                      </li>
-                      <li><a href="#">Another action</a>
-                      </li>
-                      <li><a href="#">Something else here</a>
-                      </li>
-                      <li className="divider"></li>
-                      <li><a href="#">Separated link</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              {/*  /.panel-heading  --> */}
-              <div className="panel-body">
-                <div className="row">
-                  <div className="col-lg-4">
-                    <div className="table-responsive">
-                      <table className="table table-bordered table-hover table-striped">
-                        <thead>
-                          <tr>
-                            <th>#</th>
-                            <th>Date</th>
-                            <th>Time</th>
-                            <th>Amount</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>3326</td>
-                            <td>10/21/2013</td>
-                            <td>3:29 PM</td>
-                            <td>$321.33</td>
-                          </tr>
-                          <tr>
-                            <td>3325</td>
-                            <td>10/21/2013</td>
-                            <td>3:20 PM</td>
-                            <td>$234.34</td>
-                          </tr>
-                          <tr>
-                            <td>3324</td>
-                            <td>10/21/2013</td>
-                            <td>3:03 PM</td>
-                            <td>$724.17</td>
-                          </tr>
-                          <tr>
-                            <td>3323</td>
-                            <td>10/21/2013</td>
-                            <td>3:00 PM</td>
-                            <td>$23.71</td>
-                          </tr>
-                          <tr>
-                            <td>3322</td>
-                            <td>10/21/2013</td>
-                            <td>2:49 PM</td>
-                            <td>$8345.23</td>
-                          </tr>
-                          <tr>
-                            <td>3321</td>
-                            <td>10/21/2013</td>
-                            <td>2:23 PM</td>
-                            <td>$245.12</td>
-                          </tr>
-                          <tr>
-                            <td>3320</td>
-                            <td>10/21/2013</td>
-                            <td>2:15 PM</td>
-                            <td>$5663.54</td>
-                          </tr>
-                          <tr>
-                            <td>3319</td>
-                            <td>10/21/2013</td>
-                            <td>2:13 PM</td>
-                            <td>$943.45</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                    {/*  /.table-responsive  --> */}
-                  </div>
-                  {/*  /.col-lg-4 (nested)  --> */}
-                  <div className="col-lg-8">
-                    <div id="morris-bar-chart"></div>
-                  </div>
-                  {/*  /.col-lg-8 (nested)  --> */}
-                </div>
-                {/*  /.row  --> */}
-              </div>
-              {/*  /.panel-body  --> */}
-            </div>
-            {/*  /.panel  --> */}
             <div className="panel panel-default">
               <div className="panel-heading">
                 <i className="fa fa-clock-o fa-fw"></i> Responsive Timeline
@@ -319,14 +188,14 @@ class Dashboard extends Component {
                             <i className="fa fa-gear"></i> <span className="caret"></span>
                           </button>
                           <ul className="dropdown-menu" role="menu">
-                            <li><a href="#">Action</a>
+                            <li><a >Action</a>
                             </li>
-                            <li><a href="#">Another action</a>
+                            <li><a >Another action</a>
                             </li>
-                            <li><a href="#">Something else here</a>
+                            <li><a >Something else here</a>
                             </li>
                             <li className="divider"></li>
-                            <li><a href="#">Separated link</a>
+                            <li><a >Separated link</a>
                             </li>
                           </ul>
                         </div>
@@ -374,54 +243,54 @@ class Dashboard extends Component {
               {/*  /.panel-heading  --> */}
               <div className="panel-body">
                 <div className="list-group">
-                  <a href="#" className="list-group-item">
+                  <a  className="list-group-item">
                     <i className="fa fa-comment fa-fw"></i> New Comment
                   <span className="pull-right text-muted small"><em>4 minutes ago</em>
                     </span>
                   </a>
-                  <a href="#" className="list-group-item">
+                  <a  className="list-group-item">
                     <i className="fa fa-twitter fa-fw"></i> 3 New Followers
                   <span className="pull-right text-muted small"><em>12 minutes ago</em>
                     </span>
                   </a>
-                  <a href="#" className="list-group-item">
+                  <a  className="list-group-item">
                     <i className="fa fa-envelope fa-fw"></i> Message Sent
                   <span className="pull-right text-muted small"><em>27 minutes ago</em>
                     </span>
                   </a>
-                  <a href="#" className="list-group-item">
+                  <a  className="list-group-item">
                     <i className="fa fa-tasks fa-fw"></i> New Task
                   <span className="pull-right text-muted small"><em>43 minutes ago</em>
                     </span>
                   </a>
-                  <a href="#" className="list-group-item">
+                  <a  className="list-group-item">
                     <i className="fa fa-upload fa-fw"></i> Server Rebooted
                   <span className="pull-right text-muted small"><em>11:32 AM</em>
                     </span>
                   </a>
-                  <a href="#" className="list-group-item">
+                  <a  className="list-group-item">
                     <i className="fa fa-bolt fa-fw"></i> Server Crashed!
                   <span className="pull-right text-muted small"><em>11:13 AM</em>
                     </span>
                   </a>
-                  <a href="#" className="list-group-item">
+                  <a  className="list-group-item">
                     <i className="fa fa-warning fa-fw"></i> Server Not Responding
                   <span className="pull-right text-muted small"><em>10:57 AM</em>
                     </span>
                   </a>
-                  <a href="#" className="list-group-item">
+                  <a  className="list-group-item">
                     <i className="fa fa-shopping-cart fa-fw"></i> New Order Placed
                   <span className="pull-right text-muted small"><em>9:49 AM</em>
                     </span>
                   </a>
-                  <a href="#" className="list-group-item">
+                  <a  className="list-group-item">
                     <i className="fa fa-money fa-fw"></i> Payment Received
                   <span className="pull-right text-muted small"><em>Yesterday</em>
                     </span>
                   </a>
                 </div>
                 {/*  /.list-group  --> */}
-                <a href="#" className="btn btn-default btn-block">View All Alerts</a>
+                <a  className="btn btn-default btn-block">View All Alerts</a>
               </div>
               {/*  /.panel-body  --> */}
             </div>
@@ -432,7 +301,7 @@ class Dashboard extends Component {
             </div>
               <div className="panel-body">
                 <div id="morris-donut-chart"></div>
-                <a href="#" className="btn btn-default btn-block">View Details</a>
+                <a  className="btn btn-default btn-block">View Details</a>
               </div>
               {/*  /.panel-body  --> */}
             </div>
@@ -446,28 +315,28 @@ class Dashboard extends Component {
                   </button>
                   <ul className="dropdown-menu slidedown">
                     <li>
-                      <a href="#">
+                      <a >
                         <i className="fa fa-refresh fa-fw"></i> Refresh
                     </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a >
                         <i className="fa fa-check-circle fa-fw"></i> Available
                     </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a >
                         <i className="fa fa-times fa-fw"></i> Busy
                     </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a >
                         <i className="fa fa-clock-o fa-fw"></i> Away
                     </a>
                     </li>
                     <li className="divider"></li>
                     <li>
-                      <a href="#">
+                      <a >
                         <i className="fa fa-sign-out fa-fw"></i> Sign Out
                     </a>
                     </li>
